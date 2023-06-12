@@ -128,3 +128,26 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+*.pem
+
+
+# Other
+.DS_Store
+Thumbs.db
+
+# Local development settings
+apitest/
+env/
+venv/
+.vscode/
+.idea/
+*.env
+*.env.*
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# Log files
+*.log
